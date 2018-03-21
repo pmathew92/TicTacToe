@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitebackground"
+    android:gravity="center"
+    tools:context="prince.sample.com.tictactoe.MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@color/white"
+            android:onClick="btnClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20pt"
+        android:gravity="center">
+
+        <Button
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:elevation="0dp"
+            android:onClick="resetClick"
+            android:text="@string/reset"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </TableRow>
+</TableLayout>
